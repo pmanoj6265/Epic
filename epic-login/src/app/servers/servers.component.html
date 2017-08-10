@@ -1,0 +1,33 @@
+<body>
+
+<h3>Please select the system configuration required</h3>
+
+<div>
+  <form >
+    <label for="Memory" required>Hard Disk / Memory</label>
+    <select id="Memory" name="Memory">
+      <option value="australia">500 Gb</option>
+      <option value="canada">1 TB</option>
+      <option value="usa">2 TB</option>
+    </select>
+
+    <label for="Processor" required>Processor</label>
+    <select id="Processor" name="Processor">
+      <option value="i3">Intel i3</option>
+      <option value="i5">Intel i5</option>
+      <option value="i7">Intel i7</option>
+      <option value="A8">AMD A8</option>
+      <option value="A10">AMD A10</option>
+    </select>
+
+    <label for="RAM" required>RAM</label>
+    <select id="RAM" name="RAM">
+      <option value="2GB">2 GB</option>
+      <option value="8GB">8GB</option>
+      <option value="16GB">16 Gb</option>
+    </select>
+
+    <button routerLink="/result" role=" button ">Create Instance </button>
+  </form>
+</div>
+</body>
